@@ -56,6 +56,11 @@ i {
   background: rgb(34, 208, 121);
   background-image: var(--bg-color);
   border-radius: 10px 90px 10px 10px;
+
+  @media screen and (max-width: 768px) and (min-width: 530px) {
+    max-width: 90%;
+    margin: auto;
+  }
 }
 
 .info__img {
@@ -126,8 +131,6 @@ i {
 .footer {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: var(--color-dark);
-  color: var(--color-light);
 }
 
 @media only screen and (max-width: 991px) {
